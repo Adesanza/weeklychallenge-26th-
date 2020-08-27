@@ -2,7 +2,7 @@ function minCost(cost){
     let max = 100;
     let arr = [];
     if(cost.length > 100 || cost.length < 1)
-        return 'max of 100 houses';
+    {return 'max of 100 houses'};
       for(let i = 0; i < cost.length; i+=1){
         for(let j =0; j < cost[i].length; j+=1){
           if(cost[i][j] < 1 || cost[i][j] > 99)
